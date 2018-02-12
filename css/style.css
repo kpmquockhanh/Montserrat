@@ -1,0 +1,268 @@
+@font-face {
+font-family: "Montserrat";
+src: url("fonts/Montserrat.otf");
+src: 
+url("fonts/Montserrat.otf") format("woff"),
+url("fonts/Montserrat.otf") format("opentype"),
+}
+@font-face {
+font-family: "Montserrat-B";
+src: url("fonts/Montserrat-Bold.otf");
+src: 
+url("fonts/Montserrat-Bold.otf") format("woff"),
+url("fonts/Montserrat-Bold.otf") format("opentype"),
+}
+@font-face {
+font-family: "Montserrat-L";
+src: url("fonts/Montserrat-Light.otf");
+src: 
+url("fonts/Montserrat-Light.otf") format("woff"),
+url("fonts/Montserrat-Light.otf") format("opentype"),
+}
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+.clear{
+	clear: both;
+}
+body{
+	min-width: 500px;
+	width: 100%;
+	height: 2500px;
+	font-family: Montserrat, Arial, sans-serif;
+}
+.container{
+	width: 80%;
+	height: 100%;
+	position: relative;
+	margin: auto;
+}
+.content{
+	
+}
+.top{
+	width: 100%;
+	height: 20%;
+	/*background-color: purple;*/
+	color: #fbcc4b;
+	font-family: Montserrat-B;
+	/*background-color: red;*/
+
+}
+.toptext:last-child{
+	margin-top: 0%;
+}
+.toptext{
+	font-size: 2vw;
+	float: right;
+	width: 50%;
+	text-align: right;
+	margin-right: 2%;
+	margin-top: 20vh;
+}
+.box{
+	width: 5vw;
+	height: 5vw;;
+	background-color: #ffc70b;
+	opacity: 0.8;
+	float: right;
+	margin-top:20vh;
+}
+.mid{
+	background-color: #242a31;
+	height: 30%;
+	width: 100%;
+}
+.rectangle{
+	height: 3%;
+	width: 25%;
+	background-color: #b8b5b4;
+	float: right;
+}
+.title{
+	clear: both;
+	margin-right: 7%;
+	margin-top: 10vh;
+	text-align: right;
+}
+.title1{
+	font-size: 3.5vw;
+	color: white;
+	font-weight: bold;
+}
+.title2{
+	font-size: 7vw;
+	color: #fbcc4c;
+	font-family: Montserrat-B;
+}
+.title3{
+	font-size: 1.5vw;
+	color: white;
+	font-weight: bold;
+	width: 50%;
+	float: right;
+	margin-top: 1vh;
+}
+.bot{
+	clear: both;
+	height: 50%;
+	background-image: url('../images/joshua-ness-225844.jpg');
+	background-size: cover;                      /* <------ */
+    background-repeat: no-repeat;
+    background-position: center;
+	position: relative;
+	background-color: #242a31;
+	background-blend-mode: lighten;
+}
+.bot>img{
+	width: 100%;
+	position: absolute;
+}
+.filter{
+	width: 100%;
+	height: 100%;
+	background-color: #15b4e3;
+	position: absolute;
+	opacity: 0.5;
+	z-index: 1;
+	width: 60%;
+	right: 0px;
+}
+.contact{
+	background-color: #242a31;
+	width: 40%;
+	height: 60%;
+	position: absolute;
+	bottom: 0px;
+	z-index: 1;
+}
+.gr{
+	margin-bottom: 10%;
+	margin-left: 10%;
+}
+.gr:first-child{
+	margin-top: 30%;
+}
+.gr img{
+	display: inline-block;
+	width: 10%;
+}
+.gr .info{
+	display: inline-block;
+	color: white;
+	font-size: 2vw;
+	margin-left: 2%;
+}
+.web{
+	font-size: 2vw;
+	font-family: Montserrat-B;
+	color: #ddae27;
+	margin-left: 10%;
+}
+.logo{
+	display: inline;
+	width: 20%;
+}
+.logo:last-child{
+	margin-left: 6%;
+}
+.logo img{
+	width: 60%;
+}
+.logos{
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	bottom: 0px;
+	left: 40%;
+	vertical-align: middle;
+	z-index: 5;
+	background-color: #386678;
+	width: 60%;
+	height: 20%;
+}
+.special{
+	background-color: #ffc70b;
+	width: 30%;
+	height: 100%;
+	opacity: 0.9;
+	position: absolute;
+	top: 0px;
+	left: 10%;
+}
+.hey{
+	font-size: 6vw;
+	color: white;
+	font-family: Montserrat-B;
+	text-align: center;
+	margin-top: 10%;
+	margin-bottom: 0px;
+}
+.designservice{
+	font-size: 2vw;
+	color: white;
+	font-family: Montserrat-L;
+	margin-top: 0px;
+	text-align: center;
+}
+.text1{
+	font-size: 2vw;
+	color: white;
+	margin-left: 10%;
+	margin-bottom: 5%;
+}
+.text2{
+	width: 80%;
+	font-size: 2.5vw;
+	color: white;
+	margin-left: 10%;
+	margin-top: 5%;
+
+	font-family: Montserrat-B;
+}
+.rec1{
+	width: 20%;
+	height: 2%;
+	background-color: white;
+	margin-top: 60%;
+	margin-left: 10%;
+	margin-bottom: 5%;
+}
+.rec2{
+	width: 20%;
+	height: 2%;
+	background-color: white;
+	margin-top: 5vw;
+	margin-left: 10%;
+}
+.title4{
+	text-align: right;
+	font-size: 7vw;
+	font-family: Montserrat-B;
+	color: white;
+	z-index: 6;
+	opacity: 1;
+}
+.contentbot{
+	position: absolute;
+	right: 7%;
+	z-index: 2;
+	margin-top: 5%;
+}
+.contentbot p{
+	font-size: 1vw;
+	color: white;
+	font-weight: bold;
+	width: 50%;
+	float: right;
+	margin-top: 2%;
+	text-align: right;
+}
+.contentbot p:last-child{
+	color: #242a31;
+	clear: right;
+}
